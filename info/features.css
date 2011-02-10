@@ -1,0 +1,102 @@
+.block h2 {
+    margin: 0px 0 0 10px;
+    display: inline-block;
+    color: #619f85;
+    font: italic normal bold 23px Georgia, serif;
+    letter-spacing: 0px;
+    border-bottom: 2px dashed #619f85;
+    cursor: pointer;
+}
+
+.block div {
+    display: none;
+}
+
+.left h2 {
+    margin-left:10px;
+    display: inline-block;
+    color: #000;
+    font: italic normal bold 16px Georgia, serif;
+    letter-spacing: 0px;
+    line-height: 40px;
+    border: 0px;
+    cursor: default;
+}
+
+.left p {
+    margin-left:10px;
+    color: #575a66;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.left p.italic {
+    font: italic 17px serif;
+    line-height: 22px;
+}
+
+.tracker img {
+    display: block;
+    margin: 60px 0 80px 20px;
+}
+
+.tracker a {
+    display: inline-block;
+    padding-bottom: 35px;
+    margin-left: 20px;
+    background: url('img/arrowDown.gif') no-repeat center bottom;
+}
+
+table.features td {
+    width: 400px;
+    padding-left: 80px;
+}
+table.features td.first {
+    width: 240px;
+    padding-left: 10px;
+}
+table.features td.last {
+    width: 210px;
+}
+
+table.features tr.grey td {
+    color: #abadb2;
+}
+table.features tr.grey td.last {
+    padding-left: 90px;
+    border: 0px;
+    font: italic 13px serif;
+    color: #000;
+    vertical-align: middle;
+}
+table.features td.fuelControl {
+    background: url('img/features/fuelControl.png') no-repeat 20px 10px;
+}
+table.features td.geoPosition {
+    background: url('img/features/geoPosition.png') no-repeat 20px 10px;
+}
+
+table.features td.workControl {
+    background: url('img/features/workControl.png') no-repeat 20px 10px;
+}
+
+table.features td.stateControl {
+    background: url('img/features/stateControl.png') no-repeat 20px 10px;
+}
+
+table.features td.operator {
+    background: url('img/features/operator.png') no-repeat 20px 10px;
+}
+
+.fuel {
+    position: absolute;
+    height: 120px;
+    bottom: 0px;
+    right: 0px;
+    width: 250px;
+    background: url('img/features/fuelSafe.png') no-repeat;
+}
+
+table.trackers td {
+    vertical-align: middle;
+}

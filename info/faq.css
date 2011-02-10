@@ -1,0 +1,50 @@
+.faq {
+    padding-bottom: 50px;
+}
+
+.faq h1 {
+    font: italic normal bold 24px Georgia, serif;
+    margin: 40px 0 0px 0;
+}
+
+.faq h3 {
+    margin: 40px 0 15px 0;
+    font: italic normal bold 18px Georgia, serif;
+}
+
+.faq div.q a {
+    font: italic 13px sans-serif;
+    line-height: 24px;
+    text-decoration: none;
+    border-bottom: 1px dashed #619f85;
+}
+
+.faq div.opened a {
+    color: #000;
+}
+
+.faq .answer {
+    margin: 10px 0 10px 10px;
+    width: 650px;
+    position: relative;
+    display: none;
+}
+    .faq .answer span {
+        font: italic 14px serif;
+    }
+    .faq .answer p {
+        font: 12px sans-serif;
+    }
+    
+    .faq .answer .right {
+        position: absolute;
+        width: 250px;
+        right: -290px;
+        top: 0px;
+        font: italic 13px serif;
+        color: #575a66;    
+    }
+    
+        .faq .answer .right img {
+            margin-bottom: 10px;
+        }

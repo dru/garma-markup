@@ -1,0 +1,130 @@
+.plans {
+    height: 680px;
+    position: relative;
+}
+
+.plans ul {
+    list-style: none;
+    width: 320px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.plans li {
+    padding: 10px 70px 10px 10px;
+    border-bottom: 1px dashed #c6c6c6;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575a66;
+    margin-right: 10px;
+}
+.plans li.twoLines {
+    line-height: 32px;
+}
+.plans li.threeLines {
+    line-height: 48px;
+}
+
+.plans li.first {
+    height: 18px;
+    color: #fff;
+}
+
+ul.plan {
+    width: 156px;
+}
+
+ul.plan li {
+    text-align: center;
+    padding: 10px;
+}
+
+ul.plan li.first {
+    border: 0px;
+}
+ul.plan li.second {
+    padding-top: 13px;
+    line-height: 14px;
+}
+ul.plan li.choose {
+    border: 0px;
+    padding: 25px 0;
+}
+
+
+ul.free li {
+    background: #eef1ef;
+}
+ul.free li.first {
+    background: url('img/plans/free.png') no-repeat;
+}
+ul.free li.second {
+    background: url('img/plans/free.png') no-repeat center -40px;
+    background-color: #eef1ef;
+}
+ul.free li.yes {
+    background: url('img/yes.png') no-repeat center;
+    background-color: #eef1ef;
+}
+
+ul.base li {
+    background: #e6ecea;
+}
+ul.base li.first {
+    background: url('img/plans/base.png') no-repeat;
+}
+ul.base li.second {
+    background: url('img/plans/base.png') no-repeat center -40px;
+    background-color: #e6ecea;
+}
+ul.base li.yes {
+    background: url('img/yes.png') no-repeat center;
+    background-color: #e6ecea;
+}
+
+ul.enterprise li {
+    background: #d8e4df;
+}
+ul.enterprise li.first {
+    background: url('img/plans/enterprise.png') no-repeat;
+}
+ul.enterprise li.second {
+    background: url('img/plans/enterprise.png') no-repeat center -40px;
+    background-color: #d8e4df;
+}
+ul.enterprise li.yes {
+    background: url('img/yes.png') no-repeat center;
+    background-color: #d8e4df;
+}
+
+ul.luxury li {
+    background: #bad3c9;
+    border-color: #aab;
+}
+ul.luxury li.first {
+    background: url('img/plans/luxury.png') no-repeat;
+}
+ul.luxury li.second {
+    background: url('img/plans/luxury.png') no-repeat center -40px;
+    background-color: #bad3c9;
+}
+ul.luxury li.yes {
+    background: url('img/yes.png') no-repeat center;
+    background-color: #bad3c9;
+}
+
+div.types {
+    height: 350px;
+}
+div.types ul.plan {
+    width: 205px;
+}
+div.types ul.free li.first {
+    background: url('img/plans/freeLong.png') no-repeat;
+}
+div.types ul.base li.first {
+    background: url('img/plans/baseLong.png') no-repeat;
+}
+div.types ul.enterprise li.first {
+    background: url('img/plans/enterpriseLong.png') no-repeat;
+}

@@ -1,0 +1,86 @@
+#register {
+    width: 650px;
+    padding: 0px;
+    margin: 0px 0px 80px 0;
+    text-align: center;
+}
+
+#register h2 {
+    text-align: left;
+    font: italic normal bold 18px Georgia, serif;
+    padding: 0 0 3px 10px;
+    border-bottom: 1px dashed #c6c6c6;
+}
+
+.row {
+    text-align: left;
+    padding: 5px 0 0 10px;
+}
+.next {
+    margin-top: 25px;
+}
+    .row label {
+        display: inline-block;
+        width: 125px;
+        font: 12px sans-serif;
+        color: #575a66;
+    }
+    .row input {
+        width: 270px;
+        font: italic 22px serif;
+    }
+    .row span {
+        width: 210px;
+        display: inline-block;
+        margin-left: 15px;
+        font: italic 12px serif;
+        color: #575a66;
+    }
+
+#register .choise {
+    margin-top: 50px;
+}
+    .choise .plans {
+        width: 750px;
+        height: 120px;
+    } 
+    .choise .plan {
+        margin-right: 22px;
+    }
+    .choise .plan .second {
+        border: 0px;
+    }
+    .choise a {
+        margin-top: 48px;
+        display: block;
+        float: left;
+    }
+
+#register .additional {
+    height: 190px;
+}
+
+#register .additional ul {
+    width: 150px;
+}
+#register .additional ul li {
+    line-height: 16px;
+    height: 26px;
+}
+
+#register .additional ul li input {
+    margin-top: 7px;
+}
+#register .additional ul.types {
+    width: 200px;
+}
+
+#register .additional ul.types li {
+    text-align: left;
+    color: #000;
+}
+
+li.cards {
+    padding-top: 12px;
+    border: 0px;
+}

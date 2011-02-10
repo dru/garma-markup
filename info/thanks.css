@@ -1,0 +1,52 @@
+.thanks {
+    height: 625px;
+    background: url('img/award.png') no-repeat 650px top;
+    position: relative;
+}
+
+    .thanks p {
+        display: block;
+        position: absolute;
+        top: 300px;
+        left: 40px;
+        width: 450px;
+        font: italic 18px serif;
+        line-height: 24px;
+    }
+    .thanks p b {
+        font-family: Georgia, serif;
+    }
+
+    .thanks span.links {
+        display: block;
+        position: absolute;
+        top: 520px;
+        left: 40px;
+        font: italic 16px serif;
+        line-height: 24px;
+    }
+        .thanks span.links a {
+            font: 13px sans-serif;
+        }
+
+    .thankYou {
+        position: absolute;
+        width: 280px;
+        top: 240px;
+        right: 90px;
+        text-align: center;
+    }
+        .thankYou h2 {
+            font: italic normal bold 26px Georgia, serif;
+            background: url('img/thankYouBg.png') repeat-x bottom;
+            padding-bottom: 20px;
+            margin: 15px 0;
+        }
+
+        .thankYou span {
+            display: block;
+            color: #7a7a7a;
+            font: italic 16px serif;
+            padding-bottom: 22px;
+            background: url('img/thankYouBg.png') repeat-x bottom;
+        }
