@@ -30,3 +30,9 @@ a:hover {
         background-position: 93% center;
         padding-right: 18px;
     }
+    a.down {
+        background-image: url('../img/arrowDown.png');
+        background-repeat: no-repeat;
+        background-position: 93% center;
+        padding-right: 20px;
+    }

@@ -13,13 +13,29 @@
 }
 .mt30 {
     margin-top: 30px;
-} 
+}
+.mtm10 {
+    margin-top: -10px;
+}
+.mtm20 {
+    margin-top: -20px;
+}
 
 
 .mr10 {
     margin-right: 10px;
 }
+.mr40 {
+    margin-right: 40px !important;
+}
 
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
 .ml10 {
     margin-left: 10px;
 }

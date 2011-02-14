@@ -63,6 +63,21 @@ table {
             padding-left: 34px;
         }
 
+table.inline {
+    display: inline-block;
+    width: auto;
+    margin-right: 30px;
+}
+    table.inline tr:last-child td {
+        border-bottom: 0px;
+    }
+    table.inline td {
+        padding: 7px 8px;
+    }
+    table.inline td:first-child {
+        font-weight: bold;
+        border-right: 0px;
+    }
 
 a.button {
     display: inline-block;
@@ -77,6 +92,9 @@ a.button {
     -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
 }
+    a.w100 {
+        width: 100px;
+    }
 
 ul {
     padding: 0px;
@@ -198,3 +216,8 @@ div.graphs {
         display: inline-block;
         margin: 0 50px 20px 0;
     }
+    
+dt,
+dd {
+    display: table-cell;
+}
