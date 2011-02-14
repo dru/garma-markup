@@ -46,13 +46,25 @@
     border: 0px;
     color: #fff;
     font-size: 14px;
+    line-height: 18px;
 }
     /* IMAGES */
     #menu .checkup {
         background: url('../img/menu/checkup.png') no-repeat 160px;
     }
-    #menu .drivers {}
-        #menu .drivers:hover {}
+        #menu .checkup:hover {
+            background-image: url('../img/menu/checkupHover.png');
+        }
+        #menu .checkup.active {
+            background: #568a75 url('../img/menu/checkupActive.png') no-repeat 210px;
+        }
+        
+    #menu .drivers {
+        background: url('../img/menu/drivers.png') no-repeat 160px;
+    }
+        #menu .drivers:hover {
+            background-image: url('../img/menu/driversHover.png');
+        }
         #menu .drivers.active {
             background: #568a75 url('../img/menu/driversActive.png') no-repeat 210px;
         }
@@ -60,21 +72,59 @@
     #menu .notifications {
         background: url('../img/menu/notifications.png') no-repeat 170px;
     }
+        #menu .notifications:hover {
+            background-image: url('../img/menu/notificationsHover.png');
+        }
+        #menu .notifications.active {
+            background: #568a75 url('../img/menu/notificationsActive.png') no-repeat 222px;
+        }
+        
     #menu .repair {
         background: url('../img/menu/repair.png') no-repeat 160px;
     }
         #menu .repair:hover {
-            background: url('../img/menu/repairHover.png') no-repeat 160px;
+            background-image: url('../img/menu/repairHover.png');
         }
+        #menu .repair.active {
+            background: #568a75 url('../img/menu/repairActive.png') no-repeat 210px;
+        }
+        
     #menu .statistic {
         background: url('../img/menu/statistic.png') no-repeat 157px;
     }
+        #menu .statistic:hover {
+            background-image: url('../img/menu/statisticHover.png');
+        }
+        #menu .statistic.active {
+            background: #568a75 url('../img/menu/statisticActive.png') no-repeat 210px;
+        }
+        
     #menu .tasks {
         background: url('../img/menu/tasks.png') no-repeat 160px;
     }
+        #menu .tasks:hover {
+            background-image: url('../img/menu/tasksHover.png');
+        }
+        #menu .tasks.active {
+            background: #568a75 url('../img/menu/tasksActive.png') no-repeat 210px;
+        }
+        
     #menu .transport {
         background: url('../img/menu/transport.png') no-repeat 156px;
     }
+        #menu .transport:hover {
+            background-image: url('../img/menu/transportHover.png');
+        }
+        #menu .transport.active {
+            background: #568a75 url('../img/menu/transportActive.png') no-repeat 210px;
+        }
+        
     #menu .zones {
         background: url('../img/menu/zones.png') no-repeat 159px;
     }
+        #menu .zones:hover {
+            background-image: url('../img/menu/zonesHover.png');
+        }
+        #menu .zones.active {
+            background: #568a75 url('../img/menu/zonesActive.png') no-repeat 210px;
+        }
