@@ -1,0 +1,80 @@
+#menu .emulsion {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #262a30;
+    opacity: .9;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+}
+
+#menu .itself {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#menu .logo {
+    background: #191d28 url('../img/logo.png') no-repeat 19px 23px;
+    margin-bottom: 5px;
+    padding: 23px 0px 19px 19px;
+    height: 34px;
+}
+
+#menu a {
+    display: block;
+    padding: 0 20px;
+    border-bottom: 1px solid #21252a;
+    padding: 20px 70px 20px 20px;
+    color: #466c5f;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 12px;
+}
+#menu a:hover {
+    color: #fff;
+}
+#menu a:last-child {
+    border: 0px;
+}
+#menu a.active {
+    padding: 25px 130px 25px 20px;
+    background: #568a75;
+    margin-right: -60px;
+    border: 0px;
+    color: #fff;
+    font-size: 14px;
+}
+    /* IMAGES */
+    #menu .checkup {
+        background: url('../img/menu/checkup.png') no-repeat 160px;
+    }
+    #menu .drivers {}
+        #menu .drivers:hover {}
+        #menu .drivers.active {
+            background: #568a75 url('../img/menu/driversActive.png') no-repeat 210px;
+        }
+        
+    #menu .notifications {
+        background: url('../img/menu/notifications.png') no-repeat 170px;
+    }
+    #menu .repair {
+        background: url('../img/menu/repair.png') no-repeat 160px;
+    }
+        #menu .repair:hover {
+            background: url('../img/menu/repairHover.png') no-repeat 160px;
+        }
+    #menu .statistic {
+        background: url('../img/menu/statistic.png') no-repeat 157px;
+    }
+    #menu .tasks {
+        background: url('../img/menu/tasks.png') no-repeat 160px;
+    }
+    #menu .transport {
+        background: url('../img/menu/transport.png') no-repeat 156px;
+    }
+    #menu .zones {
+        background: url('../img/menu/zones.png') no-repeat 159px;
+    }

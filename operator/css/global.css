@@ -1,0 +1,62 @@
+h2 {
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    background: #5c957d;
+    padding-left: 12px;
+    margin: 0px;
+}
+
+    h2 span {
+        float: right;
+        background: #7daa97;
+        padding: 0 17px;
+        font-size: 11px;
+        line-height: 28px;
+        color: #b9d8cb;
+    }
+        h2 span b {
+            color: #fffefe;
+        }
+        h2 span a {
+            color: #b9d8cb;
+        }
+        
+h3 {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    background: #fff;
+    padding-left: 9px;
+    margin: 20px 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #ccc;
+}
+    h3 span {
+        float: right;
+        padding: 0 17px;
+        font-size: 11px;
+        line-height: 30px;
+        color: #ooo;
+    }
+        h3 span a {
+            text-decoration: none;
+            border-bottom: 1px dashed #3490d9;
+        }
+            h3 span a:hover {
+                border: 0px;
+            }
+
+h4 {
+    color: #63656c;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0px;
+}
+    h4 span {
+        color: #a6a8b0;
+        font-weight: normal;
+    }
