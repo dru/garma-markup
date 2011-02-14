@@ -22,6 +22,10 @@ h2 {
         h2 span a {
             color: #b9d8cb;
         }
+        h2 span.calendar {
+            background: #7daa97 url('../img/calendar.png') no-repeat 91% center;
+            padding-right: 48px;
+        }
         
 h3 {
     line-height: 30px;
